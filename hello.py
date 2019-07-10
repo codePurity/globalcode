@@ -1,1 +1,1 @@
-print("h3ello ktu")
+print("hello")

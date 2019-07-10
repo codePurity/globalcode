@@ -1,0 +1,144 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.3  0.8  33708  7860 ?        Ss   10:20   0:03 /sbin/init splash
+root         2  0.0  0.0      0     0 ?        S    10:20   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        I<   10:20   0:00 [rcu_gp]
+root         4  0.0  0.0      0     0 ?        I<   10:20   0:00 [rcu_par_gp]
+root         8  0.0  0.0      0     0 ?        I<   10:20   0:00 [mm_percpu_wq]
+root         9  0.0  0.0      0     0 ?        S    10:20   0:00 [ksoftirqd/0]
+root        10  0.0  0.0      0     0 ?        I    10:20   0:00 [rcu_sched]
+root        11  0.0  0.0      0     0 ?        I    10:20   0:00 [rcu_bh]
+root        12  0.0  0.0      0     0 ?        S    10:20   0:00 [migration/0]
+root        13  0.0  0.0      0     0 ?        S    10:20   0:00 [cpuhp/0]
+root        14  0.0  0.0      0     0 ?        S    10:20   0:00 [cpuhp/1]
+root        15  0.0  0.0      0     0 ?        S    10:20   0:00 [migration/1]
+root        16  0.0  0.0      0     0 ?        S    10:20   0:00 [ksoftirqd/1]
+root        17  0.0  0.0      0     0 ?        I    10:20   0:00 [kworker/1:0-events]
+root        18  0.0  0.0      0     0 ?        I<   10:20   0:00 [kworker/1:0H-kblockd]
+root        19  0.0  0.0      0     0 ?        S    10:20   0:00 [cpuhp/2]
+root        20  0.0  0.0      0     0 ?        S    10:20   0:00 [migration/2]
+root        21  0.0  0.0      0     0 ?        S    10:20   0:00 [ksoftirqd/2]
+root        24  0.0  0.0      0     0 ?        S    10:20   0:00 [cpuhp/3]
+root        25  0.0  0.0      0     0 ?        S    10:20   0:00 [migration/3]
+root        26  0.0  0.0      0     0 ?        S    10:20   0:00 [ksoftirqd/3]
+root        29  0.0  0.0      0     0 ?        S    10:20   0:00 [kdevtmpfs]
+root        30  0.0  0.0      0     0 ?        I<   10:20   0:00 [netns]
+root        33  0.0  0.0      0     0 ?        I    10:20   0:00 [kworker/2:1-events]
+root        34  0.0  0.0      0     0 ?        S    10:20   0:00 [khungtaskd]
+root        35  0.0  0.0      0     0 ?        S    10:20   0:00 [oom_reaper]
+root        36  0.0  0.0      0     0 ?        I<   10:20   0:00 [writeback]
+root        37  0.0  0.0      0     0 ?        S    10:20   0:00 [kcompactd0]
+root        38  0.0  0.0      0     0 ?        I<   10:20   0:00 [crypto]
+root        39  0.0  0.0      0     0 ?        I<   10:20   0:00 [kblockd]
+root        40  0.0  0.0      0     0 ?        S    10:20   0:00 [watchdogd]
+root        41  0.0  0.0      0     0 ?        I<   10:20   0:00 [rpciod]
+root        42  0.0  0.0      0     0 ?        I<   10:20   0:00 [kworker/u9:0-hci0]
+root        43  0.0  0.0      0     0 ?        I<   10:20   0:00 [xprtiod]
+root        46  0.0  0.0      0     0 ?        S    10:20   0:00 [kswapd0]
+root        47  0.0  0.0      0     0 ?        I<   10:20   0:00 [nfsiod]
+root        58  0.0  0.0      0     0 ?        I<   10:20   0:00 [kthrotld]
+root        59  0.0  0.0      0     0 ?        I    10:20   0:00 [kworker/3:1-mm_percpu_wq]
+root        60  0.0  0.0      0     0 ?        I<   10:20   0:00 [iscsi_eh]
+root        61  0.0  0.0      0     0 ?        I<   10:20   0:00 [dwc_otg]
+root        62  0.0  0.0      0     0 ?        I<   10:20   0:00 [DWC Notificatio]
+root        63  0.0  0.0      0     0 ?        S<   10:20   0:00 [vchiq-slot/0]
+root        64  0.0  0.0      0     0 ?        S<   10:20   0:00 [vchiq-recy/0]
+root        65  0.0  0.0      0     0 ?        S<   10:20   0:00 [vchiq-sync/0]
+root        66  0.0  0.0      0     0 ?        S    10:20   0:00 [vchiq-keep/0]
+root        67  0.0  0.0      0     0 ?        S<   10:20   0:00 [SMIO]
+root        68  0.0  0.0      0     0 ?        S<   10:20   0:00 [SMIO]
+root        69  0.0  0.0      0     0 ?        S    10:20   0:00 [irq/86-mmc1]
+root        72  0.0  0.0      0     0 ?        I<   10:20   0:00 [mmc_complete]
+root        75  0.0  0.0      0     0 ?        I<   10:20   0:00 [kworker/3:1H-kblockd]
+root        76  0.0  0.0      0     0 ?        S    10:20   0:00 [jbd2/mmcblk0p7-]
+root        77  0.0  0.0      0     0 ?        I<   10:20   0:00 [ext4-rsv-conver]
+root        81  0.0  0.0      0     0 ?        I<   10:20   0:00 [ipv6_addrconf]
+root        83  0.0  0.0      0     0 ?        I<   10:20   0:00 [kworker/2:1H-kblockd]
+root       102  0.0  0.7  33192  7124 ?        Ss   10:20   0:01 /lib/systemd/systemd-journald
+root       111  0.0  0.0      0     0 ?        S    10:20   0:00 [irq/166-usb-001]
+root       115  0.0  0.0      0     0 ?        I<   10:20   0:00 [kworker/0:2H-mmc_complete]
+root       145  0.0  0.4  18416  4076 ?        Ss   10:20   0:00 /lib/systemd/systemd-udevd
+root       202  0.0  0.0      0     0 ?        I<   10:20   0:00 [mmal-vchiq]
+root       203  0.0  0.0      0     0 ?        I<   10:20   0:00 [mmal-vchiq]
+root       204  0.0  0.0      0     0 ?        I<   10:20   0:00 [mmal-vchiq]
+root       223  0.0  0.0      0     0 ?        I<   10:20   0:00 [cfg80211]
+root       237  0.0  0.0      0     0 ?        I<   10:20   0:00 [brcmf_wq/mmc1:0]
+root       238  0.0  0.0      0     0 ?        S    10:20   0:00 [brcmf_wdog/mmc1]
+systemd+   293  0.0  0.5  22368  5612 ?        Ssl  10:20   0:00 /lib/systemd/systemd-timesyncd
+avahi      335  0.1  0.3   5896  2944 ?        Ss   10:20   0:01 avahi-daemon: running [raspberrypi-12.local]
+nobody     338  0.0  0.2   4320  2040 ?        Ss   10:20   0:00 /usr/sbin/thd --triggers /etc/triggerhappy/triggers.d/ --socket /run/thd.socket --user nobody --deviceglob /dev/input/event*
+root       339  0.0  0.2   7948  2236 ?        Ss   10:20   0:00 /usr/sbin/cron -f
+root       345  0.0  0.6  12996  5764 ?        Ss   10:20   0:00 /lib/systemd/systemd-logind
+root       346  0.0  0.0  27656    80 ?        SLsl 10:20   0:00 /usr/sbin/rngd -r /dev/hwrng
+root       355  0.0  0.2   3692  2108 ?        SNs  10:20   0:00 /usr/sbin/alsactl -E HOME=/run/alsa -s -n 19 -c rdaemon
+message+   368  0.0  0.3   6784  3608 ?        Ss   10:20   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root       378  0.0  0.4  10700  3948 ?        Ss   10:20   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root       379  0.0  0.3  25512  2860 ?        Ssl  10:20   0:00 /usr/sbin/rsyslogd -n -iNONE
+root       380  0.0  1.1  65300 10688 ?        Ssl  10:20   0:00 /usr/lib/udisks2/udisksd
+avahi      386  0.0  0.0   5772   252 ?        S    10:20   0:00 avahi-daemon: chroot helper
+root       404  0.0  0.1   2896  1816 ?        Ss   10:20   0:00 /sbin/dhcpcd -q -b
+root       438  0.0  0.7  40460  7272 ?        Ssl  10:20   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root       441  0.0  0.7  40100  7224 ?        Ssl  10:20   0:00 /usr/sbin/lightdm
+root       450  0.0  0.4  11060  4208 ?        Ss   10:20   0:00 wpa_supplicant -B -c/etc/wpa_supplicant/wpa_supplicant.conf -iwlan0 -Dnl80211,wext
+root       469  1.5  6.2 198124 59652 tty7     Ssl+ 10:20   0:16 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root       470  0.0  0.2   5620  2412 tty1     Ss   10:20   0:00 /bin/login -f
+root       496  0.0  0.8  32528  7764 ?        Sl   10:20   0:00 lightdm --session-child 14 17
+pi         504  0.0  0.7  14656  7104 ?        Ss   10:20   0:00 /lib/systemd/systemd --user
+pi         507  0.0  0.1  16688  1668 ?        S    10:20   0:00 (sd-pam)
+pi         527  0.0  0.3   8492  3696 tty1     S+   10:20   0:00 -bash
+pi         529  0.0  1.3  56664 12692 ?        Ssl  10:20   0:00 /usr/bin/lxsession -s LXDE-pi -e LXDE
+pi         542  0.0  0.3   6544  3400 ?        Ss   10:20   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root       544  0.0  0.0   2140   128 ?        S    10:20   0:00 /usr/bin/hciattach /dev/serial1 bcm43xx 3000000 flow - b8:27:eb:ce:1a:62
+root       546  0.0  0.0      0     0 ?        I<   10:20   0:00 [kworker/u9:2-hci0]
+root       561  0.0  0.4   9808  4308 ?        Ss   10:20   0:00 /usr/lib/bluetooth/bluetoothd
+root       575  0.0  0.3  35028  3500 ?        Ssl  10:20   0:00 /usr/bin/bluealsa
+root       587  0.0  0.0      0     0 ?        S<   10:20   0:00 [krfcommd]
+pi         605  0.0  0.0   4480   312 ?        Ss   10:20   0:00 /usr/bin/ssh-agent x-session-manager
+pi         614  0.0  0.6  43592  6168 ?        Ssl  10:20   0:00 /usr/lib/gvfs/gvfsd
+pi         619  0.0  0.6  56768  6528 ?        Sl   10:20   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+pi         644  0.1  1.6  63288 15428 ?        S    10:20   0:01 openbox --config-file /home/pi/.config/openbox/lxde-pi-rc.xml
+pi         648  0.0  1.1  47500 10952 ?        Sl   10:20   0:00 lxpolkit
+pi         656  0.4  3.1 150448 29764 ?        Sl   10:20   0:04 lxpanel --profile LXDE-pi
+pi         661  0.2  2.8 107376 26640 ?        Sl   10:20   0:02 pcmanfm --desktop --profile LXDE-pi
+pi         681  0.0  0.0   4480   312 ?        Ss   10:20   0:00 /usr/bin/ssh-agent -s
+pi         722  0.0  1.1  79676 10660 ?        Ssl  10:21   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+pi         728  0.0  0.6  28700  6356 ?        Sl   10:21   0:00 /usr/lib/menu-cache/menu-cached /run/user/1000/menu-cached-:0
+pi         732  0.0  0.7  56204  7200 ?        Ssl  10:21   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+pi         738  0.0  0.5  41848  4984 ?        Ssl  10:21   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+pi         742  0.0  0.4  40280  4732 ?        Ssl  10:21   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+pi         746  0.0  0.4  40284  4412 ?        Ssl  10:21   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+pi         751  0.0  0.8  55304  8160 ?        Sl   10:21   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.4 /org/gtk/gvfs/exec_spaw/0
+pi         760  0.0  0.0      0     0 ?        Z    10:21   0:00 [sh] <defunct>
+root       837  0.0  0.0      0     0 ?        I    10:21   0:00 [kworker/0:3-events_power_efficient]
+pi         892  5.2 12.6 464484 120092 ?       Sl   10:21   0:52 /usr/lib/chromium-browser/chromium-browser-v7 --disable-quic --enable-tcp-fast-open --ppapi-flash-path=/usr/lib/chromium-browser/libpepflashplayer.so --ppapi-flash-args=enable_stagevideo_auto=0 --ppapi-flash-version=32.0.0.207 --enable-pinch
+pi         910  1.2  5.3 192940 50712 ?        Sl   10:21   0:12 lxterminal
+pi         924  0.0  3.6 198328 34376 ?        S    10:21   0:00 /usr/lib/chromium-browser/chromium-browser-v7 --type=zygote --ppapi-flash-path=/usr/lib/chromium-browser/libpepflashplayer.so --ppapi-flash-version=32.0.0.207
+pi         925  0.0  0.3   8516  3776 pts/0    Ss   10:21   0:00 bash
+pi         931  0.0  0.9 198328  9348 ?        S    10:21   0:00 /usr/lib/chromium-browser/chromium-browser-v7 --type=zygote --ppapi-flash-path=/usr/lib/chromium-browser/libpepflashplayer.so --ppapi-flash-version=32.0.0.207
+pi         954  2.1  8.4 332412 80456 ?        Sl   10:21   0:21 /usr/lib/chromium-browser/chromium-browser-v7 --type=gpu-process --field-trial-handle=13129048497090253684,7654737162365329577,131072 --gpu-preferences=KAAAAAAAAAAgAAAgAQAAAAAAAAAAAGAAAAAAAAAAAAAIAAAAAAAAAJgAAAASAAAAkAAAAAAAAACYAAAAAAAAAKAAAAAAAAAAqAAAAAAAAACwAAAAAAAAALgAAAAAAAAAwAAAAAAAAADIAAAAAAAAANAAAAAAAAAA2AAAAAAAAADgAAAAAAAAAOgAAAAAAAAA8AAAAAAAAAD4AAAAAAAAAAABAAAAAAAACAEAAAAAAAAQAQAAAAAAABgBAAAAAAAAEAAAAAAAAAAAAAAABQAAABAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAAAAAAAHAAAAEAAAAAAAAAAAAAAACgAAABAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAAAAAAANAAAAEAAAAAAAAAABAAAABQAAABAAAAAAAAAAAQAAAAYAAAAQAAAAAAAAAAEAAAAHAAAAEAAAAAAAAAABAAAACgAAABAAAAAAAAAAAQAAAAwAAAAQAAAAAAAAAAEAAAANAAAAEAAAAAAAAAAEAAAABQAAABAAAAAAAAAABAAAAAYAAAAQAAAAAAAAAAQAAAAHAAAAEAAAAAAAAAAEAAAACgAAABAAAAAAAAAABAAAAAwAAAAQAAAAAAAAAAQAAAANAAAA --service-request-channel-token=8221808856502875014
+pi         958  0.4  5.0 264412 47964 ?        Sl   10:21   0:04 /usr/lib/chromium-browser/chromium-browser-v7 --type=utility --field-trial-handle=13129048497090253684,7654737162365329577,131072 --lang=en-GB --service-sandbox-type=network --disable-quic --service-request-channel-token=14670293207241306107 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+pi        1130  0.6  7.6 338420 72688 ?        Sl   10:21   0:06 /usr/lib/chromium-browser/chromium-browser-v7 --type=renderer --field-trial-handle=13129048497090253684,7654737162365329577,131072 --lang=en-GB --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --ppapi-flash-args=enable_stagevideo_auto=0 --ppapi-flash-path=/usr/lib/chromium-browser/libpepflashplayer.so --ppapi-flash-version=32.0.0.207 --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=14063552359876169429 --renderer-client-id=4 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+root      1259  0.0  0.3   9952  3196 pts/0    S+   10:22   0:00 sudo apt-get -y upgrade
+root      1264  0.6  4.9  55644 47080 pts/0    S+   10:22   0:06 apt-get -y upgrade
+pi        1267  1.1  8.5 348844 80808 ?        Sl   10:22   0:11 /usr/lib/chromium-browser/chromium-browser-v7 --type=renderer --field-trial-handle=13129048497090253684,7654737162365329577,131072 --disable-gpu-compositing --lang=en-GB --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --ppapi-flash-args=enable_stagevideo_auto=0 --ppapi-flash-path=/usr/lib/chromium-browser/libpepflashplayer.so --ppapi-flash-version=32.0.0.207 --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=1698035976883206235 --renderer-client-id=9 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+_apt      1279  0.5  0.8  20248  7620 pts/0    S+   10:22   0:04 /usr/lib/apt/methods/http
+pi        1280  2.4  9.8 363064 93000 ?        Sl   10:22   0:23 /usr/lib/chromium-browser/chromium-browser-v7 --type=renderer --field-trial-handle=13129048497090253684,7654737162365329577,131072 --disable-gpu-compositing --lang=en-GB --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --ppapi-flash-args=enable_stagevideo_auto=0 --ppapi-flash-path=/usr/lib/chromium-browser/libpepflashplayer.so --ppapi-flash-version=32.0.0.207 --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=11235764590704489228 --renderer-client-id=10 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+root      1396  0.0  0.0      0     0 ?        I    10:26   0:00 [kworker/u8:2-cfg80211]
+root      1402  0.0  0.0      0     0 ?        I<   10:26   0:00 [kworker/2:0H]
+root      1422  0.0  0.0      0     0 ?        I    10:27   0:00 [kworker/1:1-events]
+pi        1427  1.7  9.3 358944 89024 ?        Sl   10:27   0:11 /usr/lib/chromium-browser/chromium-browser-v7 --type=renderer --field-trial-handle=13129048497090253684,7654737162365329577,131072 --disable-gpu-compositing --lang=en-GB --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --ppapi-flash-args=enable_stagevideo_auto=0 --ppapi-flash-path=/usr/lib/chromium-browser/libpepflashplayer.so --ppapi-flash-version=32.0.0.207 --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=2768435261199604156 --renderer-client-id=12 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+pi        1440  0.1  6.1 317140 57972 ?        Sl   10:27   0:00 /usr/lib/chromium-browser/chromium-browser-v7 --type=renderer --field-trial-handle=13129048497090253684,7654737162365329577,131072 --disable-gpu-compositing --lang=en-GB --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --ppapi-flash-args=enable_stagevideo_auto=0 --ppapi-flash-path=/usr/lib/chromium-browser/libpepflashplayer.so --ppapi-flash-version=32.0.0.207 --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=3472981578854636609 --renderer-client-id=13 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+root      1460  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/0:0H]
+root      1461  0.0  0.0      0     0 ?        I    10:28   0:00 [kworker/0:0-events]
+root      1497  0.0  0.0      0     0 ?        I    10:30   0:00 [kworker/2:0]
+root      1524  0.0  0.0      0     0 ?        I    10:30   0:00 [kworker/3:2-events]
+root      1534  0.0  0.0      0     0 ?        I    10:32   0:00 [kworker/u8:1-events_unbound]
+pi        1537  0.0  0.3   8516  3700 pts/1    Ss   10:32   0:00 bash
+root      1550  0.0  0.0      0     0 ?        I<   10:32   0:00 [kworker/1:2H]
+root      1551  0.0  0.0      0     0 ?        I<   10:33   0:00 [kworker/3:2H]
+root      1553  0.0  0.0      0     0 ?        I    10:33   0:00 [kworker/0:1-events]
+root      1579  0.0  0.0      0     0 ?        I    10:33   0:00 [kworker/1:2-events]
+root      1583  0.0  0.0      0     0 ?        I<   10:34   0:00 [kworker/2:2H]
+root      1600  0.0  0.0      0     0 ?        I    10:36   0:00 [kworker/3:0-mm_percpu_wq]
+root      1612  0.0  0.0      0     0 ?        I<   10:37   0:00 [kworker/0:1H]
+root      1631  0.0  0.0      0     0 ?        I    10:38   0:00 [kworker/u8:0-events_unbound]
+pi        1632  0.0  0.2   9788  2560 pts/1    R+   10:38   0:00 ps -aux
