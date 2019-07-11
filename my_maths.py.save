@@ -1,0 +1,11 @@
+def calculate():
+  x =input( "what is your name")
+  print("line2")
+	print(x)
+	print("add")
+        num1 = input("Enter first")
+     	num2 = input("Enter last")
+	result = (num1 + num2)
+	print(result)
+	return result
+print(calculate())
